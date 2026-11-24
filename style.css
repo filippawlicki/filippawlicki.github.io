@@ -361,11 +361,14 @@ section + section {
 }
 
 .news-year {
+  display: inline-block;
   color: var(--color-accent);
   font-weight: 500;
   font-size: 0.83rem;
   flex-shrink: 0;
-  min-width: 2.5rem;
+  width: 4.5rem;
+  white-space: nowrap;
+  text-align: right;
 }
 
 .news-text {

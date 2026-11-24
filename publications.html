@@ -90,11 +90,44 @@
         <section aria-labelledby="publications-heading">
           <h1 id="publications-heading">Publications</h1>
           <p class="intro-line">
-            My research interests span AI safety, computer vision, and efficient ML.
-            Below is a list of my published work.
+            (*) denotes equal contribution.
           </p>
 
           <div class="publications-list" role="list">
+
+            <article class="publication-card" role="listitem">
+              <p class="publication-title">
+                Uncovering the Tells: Efficient Black-Box Audits for LLM Data Contamination
+              </p>
+              <p class="publication-authors">
+                Dominik Bernard Lau*, <span class="author-self">Filip Pawlicki</span>*,
+                Jan Dubiński, Sebastian Cygert
+              </p>
+              <p class="publication-venue">
+                arXiv preprint, 2026
+              </p>
+              <p class="publication-abstract">
+                We study how to detect training-data contamination in large language models using
+                only black-box access. Our generation-based auditing framework operates under a
+                constrained query budget, cutting the number of queries needed by roughly 3x compared
+                to uniform position sampling, while remaining effective against closed frontier models
+                and commercial APIs.
+              </p>
+              <div class="publication-links">
+                <a href="https://arxiv.org/abs/2611.30639"
+                   target="_blank" rel="noopener noreferrer"
+                   class="pill-link" aria-label="View paper">Paper ↗</a>
+                <a href="assets/lau2026uncoveringthetells.bib"
+                   download="lau2026uncoveringthetells.bib"
+                   class="pill-link" aria-label="Download BibTeX citation">BibTeX ↓</a>
+                <a href="https://cygerts.github.io/project-pages/uncovering-the-tells/"
+                   target="_blank" rel="noopener noreferrer"
+                   class="pill-link" aria-label="View project page">Project page ↗</a>
+                <a href="https://github.com/NASK-AISafety/uncovering-the-tells"
+                   target="_blank" rel="noopener noreferrer"
+                   class="pill-link" aria-label="View code">Code ↗</a>
+              </div>
+            </article>
 
             <article class="publication-card" role="listitem">
               <p class="publication-title">
@@ -127,7 +160,7 @@
                    class="pill-link" aria-label="Download BibTeX citation">BibTeX ↓</a>
                 <a href="https://github.com/filippawlicki/nanovsr"
                    target="_blank" rel="noopener noreferrer"
-                   class="pill-link" aria-label="View project page">Project page ↗</a>
+                   class="pill-link" aria-label="View code">Code ↗</a>
               </div>
             </article>
 
